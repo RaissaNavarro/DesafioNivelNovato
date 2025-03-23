@@ -1,9 +1,9 @@
 # DesafioNivelNovato
 
-O que você vai fazer
+#O que você vai fazer
 
 
-Criar um programa em C que permita ao usuário inserir os dados de duas cartas do Super Trunfo. Para cada carta, o usuário deverá fornecer as seguintes informações:
+# Criar um programa em C que permita ao usuário inserir os dados de duas cartas do Super Trunfo. Para cada carta, o usuário deverá fornecer as seguintes informações:
 
  
 
@@ -61,7 +61,7 @@ PIB: 300.50 bilhões de reais
 Número de Pontos Turísticos: 30    
 
 
-Requisitos funcionais
+# Requisitos funcionais
 
 
 O programa deve ler corretamente os dados de duas cartas do usuário via entrada padrão (teclado).
