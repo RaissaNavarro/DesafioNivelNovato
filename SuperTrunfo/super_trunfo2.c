@@ -48,7 +48,8 @@ int main() {
 
         densidadePopu1 = populacao1 / area1; // calculando a densidade populacional
 
-        pibCapita1 = pib1 / populacao1; // calculando o pib per capita
+        pibCapita1 = (pib1 * 1e9) / populacao1; // calculando o pib per capita, aq eu adicionei esse potência pq o valor esta em bilhões
+        // e na hora de calcular tava saindo errado o valor
 
         // recebendo os dados da segunda carta
         printf("\nDigite o estado da cidade (A-H): ");
@@ -74,7 +75,8 @@ int main() {
 
         densidadePopu2 = populacao2 / area2; // calculando a densidade populacional
 
-        pibCapita2 = pib2 / populacao2; // calculando o pib per capita
+        pibCapita2 = (pib2 * 1e9) / populacao2; // calculando o pib per capita, aq eu adicionei esse potência pq o valor esta em bilhões
+        // e na hora de calcular tava saindo errado o valor
         
         // Mostrando pro usuário os dados da primeira carta
         printf("\nCarta 1:\n");
